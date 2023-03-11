@@ -1,0 +1,134 @@
+
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.announcements{
+    display: flex;
+    justify-content: center;
+    background-color: #d8e8e3;
+    margin-bottom: 32px;
+}
+
+.announcements span{
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+.left-right-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.left-right-section .text{
+      width: 50%;
+      color: #1e3932;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f1f8f6;
+}
+
+.left-right-section .image{
+    width: 50%;
+    display: flex;
+}
+
+.left-right-section .image img{
+    width: 100%;
+}
+
+.chill .text{
+    background-color: #d4e9e2;
+}
+
+.text h1, .text h3{
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text h1{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.text h3{
+    padding-top: 0.2rem;
+    padding-bottom: -1.8rem; 
+    max-width: 70%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.75;
+    font-weight: 500;
+    margin-bottom: 32px;
+    text-align: center;
+    
+}
+
+.cta{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px; 
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cta:hover{
+    padding: 7px 32px;
+    background-color: rgba(30,57,50,.1)
+}
+
+.chill h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 90px;
+    letter-spacing: 4px;
+}
+
+.chill h1{
+    font-size: 47px;
+    line-height: 1.5;
+
+}
+
+section{
+    display: flex;
+}
+
+.top-bottom-section{
+    width: 50%;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.before li a:hover{
+    text-decoration: none;
+    color: #008248;
+}
+@media( max-width:960px){
+    .left-right-section{
+        flex-direction: column;
+    }
+    .left-right-section .text{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .left-right-section .image{
+        width: 100%;
+    }
+}

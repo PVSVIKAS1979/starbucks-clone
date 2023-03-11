@@ -1,0 +1,157 @@
+* {
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .87);
+}
+
+header {
+    height: auto;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 2px 2px rgb(0 0 0 / 7%);
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.logo img {
+    height: 51px;
+    width: 51px;
+    /* margin: 25px 150px; */
+    cursor: pointer;
+}
+
+.left-nav {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-items-ul {
+    list-style-type: none;
+    /* margin: -30px -139px; */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* margin: 12px -124px; */
+}
+
+.menu-items-ul li {
+    /* text-transform: uppercase; */
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.left-nav nav ul li:hover {
+    color: #008248;
+}
+
+.right-nav {
+    margin-right: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.find-store i {
+    padding: 8px;
+    font-size: 24px;
+}
+
+.find-store:hover {
+    color: #008248;
+    cursor: pointer;
+}
+
+.sign-in,
+.join-now {
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.sign-in:hover {
+    padding: 7px 17px;
+    cursor: pointer;
+    transition: all .2s ease;
+    background-color: rgba(30, 57, 50, .1)
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+
+}
+
+.join-now:hover {
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+.before li a:hover {
+    /* text-decoration: none; */
+    color: #008248;
+}
+
+.next li a:hover {
+    /* text-decoration: none; */
+    color: #008248;
+}
+
+.now li a:hover {
+    color: #008248;
+}
+
+.before a,
+.next a,
+.now a {
+    text-decoration: none;
+}
+
+a:active,a:focus{
+    color: red;
+}
+
+@media( max-width:960px){
+
+    .header-container {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 20px;
+    }
+    .right-nav{
+        justify-content: center;
+    }
+}
