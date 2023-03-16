@@ -26,4 +26,4 @@ Contributions to this project are welcome. Please follow these guidelines when c
 
 Responsiveness:
 
-  The main page is responsive in both pc and mobile applications, but the rewards page is responsive only in pc but not responsive in monbile applications. 
+  The main page is responsive in both pc and mobile applications, but the rewards page is responsive only in pc but not responsive in mobile applications. 
